@@ -1,7 +1,10 @@
 .jumbotron {
-	background: url("../images/yoga-bkgrnd_2.jpg");
 	min-width: 1200px;
 	text-align: center;
+}
+
+#description_section {
+  background: url("../images/yoga-bkgrnd_2.jpg");  
 }
 
 .blurb, .sub-title-font, .title-font {
@@ -37,4 +40,23 @@
   width:200px;
   background-color: #3a3a3c;
   border-color:#3a3a3c;
+}
+
+/*classes jumbotron*/
+
+.class_description {
+  float: left;
+  width: 720px;  
+}
+
+.scrollme {
+  height: 500px;
+  width: 720px;
+  overflow: hidden;
+  padding-left: 8px;
+  border: 1px solid #999;
+}
+
+.scrollme-x {
+  width: 3000px;
 }

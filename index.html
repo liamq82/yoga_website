@@ -22,7 +22,7 @@
 
 <body>
     <div class='container'>
-        <div class="jumbotron">
+        <div id='description_section' class="jumbotron">
             <img src="images/logo.png" class="img-rounded">
             <p>
                 <span class="title-font">West Clare Yoga & Pilates</span>
@@ -43,12 +43,43 @@
             <button id="contact-btn" class="btn btn-lg btn-info"><i class="icon fa fa-envelope-o"></i>contact us</button>
 
         </div>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-3">
+                    <a id='class_1' href="#" class="thumbnail">
+                        <img src="images/classes_tmp.png">
+                    </a>
+                    <a id='class_2' href="#" class="thumbnail">
+                        <img src="images/classes_tmp.png">
+                    </a>
+                    <a id='class_3' href="#" class="thumbnail">
+                        <img src="images/classes_tmp.png">
+                    </a>
+                    <a id='class_4' href="#" class="thumbnail">
+                        <img src="images/classes_tmp.png">
+                    </a>
+                </div>
+                <div class="col-md-9">
+                    <div class="scrollme">
+                        <div class="scrollme-x">
+                            <div id='class_1_description' class='class_description'>Class 1</div>
+                            <div id='class_2_description' class="class_description">Class 2</div>
+                            <div id='class_3_description' class="class_description">Class 3</div>
+                            <div id='class_4_description' class="class_description">Class 4</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/jquery.smooth-scroll.js"></script>
+    <script src="js/app.js"></script>
     <script type="text/javascript" src="http://s3.amazonaws.com/scripts.hellobar.com/5c7b40fc1e8585df46d93ab4d6e6b709de466cc5.js"></script>
 </body>
 
