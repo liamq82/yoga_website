@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$('.jumbotron a').smoothScroll({offset: -60});
+	$('#view_classes_link').smoothScroll({offset: -60});
 
 	$('#class_1').click(function() {
     $.smoothScroll({

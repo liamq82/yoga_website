@@ -42,9 +42,19 @@
   border-color:#3a3a3c;
 }
 
+#view_classes_holder {
+  margin-top: 1em;
+}
+
+#view_classes_link {
+  background-color: #3a3a3c;
+  color: white;
+}
+
 /*classes jumbotron*/
 
 .class_description {
+  padding-top: 3em;
   float: left;
   width: 720px;  
 }
