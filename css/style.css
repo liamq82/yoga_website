@@ -1,0 +1,40 @@
+.jumbotron {
+	background: url("../images/yoga-bkgrnd_2.jpg");
+	min-width: 1200px;
+	text-align: center;
+}
+
+.blurb, .sub-title-font, .title-font {
+	font-family: serif;
+}
+
+.title-font{
+  font-size: 3em;
+  font-weight:400; 
+  color: #a7b742;   
+}
+
+.sub-title-font{
+  font-size: 35px;
+  font-weight:700; 
+  color: #3a3a3c;
+  opacity:0.7;
+}
+
+.blurb{
+  font-weight: 700; 
+  color: #3a3a3c;
+  /*opacity:0.9;*/
+}
+
+.highlight {
+  color:#a7b742;
+  font-weight: 700;
+}
+
+#time-btn, #contact-btn {
+  margin-top:25px;
+  width:200px;
+  background-color: #3a3a3c;
+  border-color:#3a3a3c;
+}
