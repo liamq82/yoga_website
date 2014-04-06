@@ -1,72 +1,69 @@
 .jumbotron {
-	min-width: 1200px;
-	text-align: center;
+    min-width: 1200px;
+    text-align: center;
 }
-
 #description_section {
-  background: url("../images/yoga-bkgrnd_2.jpg");  
+    background: url("../images/yoga-bkgrnd_2.jpg");
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-
 .blurb, .sub-title-font, .title-font {
-	font-family: serif;
+    font-family: serif;
 }
-
-.title-font{
-  font-size: 3em;
-  font-weight:400; 
-  color: #a7b742;   
+.title-font {
+    font-size: 3em;
+    font-weight:400;
+    color: #a7b742;
 }
-
-.sub-title-font{
-  font-size: 35px;
-  font-weight:700; 
-  color: #3a3a3c;
-  opacity:0.7;
+.sub-title-font {
+    font-size: 35px;
+    font-weight:700;
+    color: #3a3a3c;
+    opacity:0.7;
 }
-
-.blurb{
-  font-weight: 700; 
-  color: #3a3a3c;
-  /*opacity:0.9;*/
+.blurb {
+    font-weight: 700;
+    color: #3a3a3c;
+    /*opacity:0.9;*/
 }
-
 .highlight {
-  color:#a7b742;
-  font-weight: 700;
+    color:#a7b742;
+    font-weight: 700;
 }
-
 #time-btn, #contact-btn {
-  margin-top:25px;
-  width:200px;
-  background-color: #3a3a3c;
-  border-color:#3a3a3c;
+    margin-top:25px;
+    width:200px;
+    background-color: #3a3a3c;
+    border-color:#3a3a3c;
 }
-
 #view_classes_holder {
-  margin-top: 1em;
+    margin-top: 1em;
 }
-
 #view_classes_link {
-  background-color: #3a3a3c;
-  color: white;
+    background-color: #3a3a3c;
+    color: white;
+    border-bottom-color: #3a3a3c;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
-
 /*classes jumbotron*/
-
+ #view_classes {
+    background-color: #3a3a3c;
+}
 .class_description {
-  padding-top: 3em;
-  float: left;
-  width: 720px;  
+    background-color: white;
+    padding-top: 3em;
+    float: left;
+    height: 500px;
+    width: 720px;
 }
-
 .scrollme {
-  height: 500px;
-  width: 720px;
-  overflow: hidden;
-  padding-left: 8px;
-  border: 1px solid #999;
+    height: 500px;
+    width: 720px;
+    overflow: hidden;
+    padding-left: 8px;
+    border: 1px solid #999;
 }
-
 .scrollme-x {
-  width: 3000px;
+    width: 3000px;
 }
