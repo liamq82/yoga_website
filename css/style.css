@@ -36,19 +36,28 @@
     background-color: #3a3a3c;
     border-color:#3a3a3c;
 }
+#view_timetable_holder {
+    margin-top: 1em;
+}
+#view_timetable_link {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
 #view_classes_holder {
     margin-top: 1em;
 }
 #view_classes_link {
-    background-color: #3a3a3c;
+    background-color: #a7b742;
     color: white;
-    border-bottom-color: #3a3a3c;
+
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
 }
 /*classes jumbotron*/
  #view_classes {
-    background-color: #3a3a3c;
+    background-color: #a7b742;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 .class_description {
     background-color: white;
@@ -66,4 +75,24 @@
 }
 .scrollme-x {
     width: 3000px;
+}
+#view_calender_link {
+    border-bottom-color: #3a3a3c;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+/*calender*/
+ #calender {
+    border: 1px solid #ddd;
+    background-color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#calender_holder {
+}
+#calender_week_days {
+    font-weight: bold;
+}
+#calender p {
+    font-size: 14px;
 }

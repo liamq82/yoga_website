@@ -1,5 +1,6 @@
 $(document).ready(function() {
-	$('#view_classes_link').smoothScroll({offset: -100});
+  $('#view_timetable_link').smoothScroll({offset: -100});
+	$('#view_classes_link').smoothScroll({offset: -50});
 
 	$('#class_1').click(function() {
     $.smoothScroll({
