@@ -2,11 +2,21 @@
     min-width: 1200px;
     text-align: center;
 }
+
+.img-rounded {
+    padding-top: 1em;
+}
+
 #description_section {
+    position: relative;
     background: url("../images/yoga-bkgrnd_2.jpg");
     margin-bottom: 0px;
+    padding-top: 0px;
     padding-bottom: 0px;
+    min-height: 600px;
 }
+
+
 .blurb, .sub-title-font, .title-font {
     font-family: serif;
 }
@@ -30,6 +40,14 @@
     color:#a7b742;
     font-weight: 700;
 }
+
+#view_timetable_link_buttons_first, #contact_us_button_first {
+    border-color: #3a3a3c;
+    width: 200px;
+    background-color: #3a3a3c;
+    color: white;
+}
+
 #time-btn, #contact-btn {
     margin-top:25px;
     width:200px;
@@ -61,12 +79,13 @@
 }
 .class_description {
     background-color: white;
-    padding-top: 3em;
+
     float: left;
     height: 500px;
     width: 720px;
 }
 .scrollme {
+    background-color: white;
     height: 500px;
     width: 720px;
     overflow: hidden;
@@ -83,6 +102,7 @@
 }
 /*calender*/
  #calender {
+    position: relative;
     border: 1px solid #ddd;
     background-color: white;
     margin-bottom: 0px;
@@ -95,4 +115,28 @@
 }
 #calender p {
     font-size: 14px;
+}
+
+.class_description  .thumbnail {
+    border: none;
+}
+
+.class_description img {
+    margin-left: inherit;
+}
+
+.class_description h1 {
+
+    text-align: left;
+}
+
+.class_description p {
+
+    text-align: left;
+}
+
+.class_description_content {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
